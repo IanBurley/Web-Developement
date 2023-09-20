@@ -1,0 +1,25 @@
+.sideBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 96vh;
+    border-right: 1px solid #D7DBDD;
+    background-color: #FCFDFD;
+    padding: 10px;
+}
+
+.sideBar a {
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: #16A2D7;
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sideBar a:hover {
+    background-color: #EEF3F5;
+    border-radius: 4px;
+}

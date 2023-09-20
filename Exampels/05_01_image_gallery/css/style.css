@@ -1,0 +1,11 @@
+#featured_images{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content:space-evenly;
+    align-items:flex-start
+}
+
+#featured_images img{
+    width:400px;
+}
