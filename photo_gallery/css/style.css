@@ -1,0 +1,22 @@
+#featured_images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#featured_images img {
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    
+}
+
+a:hover{
+    color:blue;
+}
+
+#featured_images img:hover{
+    outline:1px grey solid;
+}

@@ -1,0 +1,33 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    margin: 100px auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card img{
+    width: 100%;
+    object-fit: cover;
+    height: 17em;
+}
+
+.card h2{
+    font-size: 2em;
+    padding-top: 0;
+    padding: 10px 30px
+}
+
+.card p{
+    font-size: 1.5em;
+    padding: 30px
+}
