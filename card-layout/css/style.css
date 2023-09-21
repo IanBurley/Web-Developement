@@ -24,7 +24,7 @@ main {
 }
 
 footer {
-    background-color: deeppink;
+    background-color: azure;
     order: 4;
     font-size: small;
 }
@@ -37,7 +37,6 @@ footer {
 }
 
 #right-sidebar {
-    background-color: forestgreen;
     flex: 1;
     order: 3;
     min-width: 200px;
@@ -67,7 +66,7 @@ body {
 .card {
     background-color: white;
     width: 400px;
-    margin: 100px auto;
+    margin: 10px;
     display: inline-block;
     background-color: white;
     width: 400px;
@@ -102,7 +101,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     width: 150px;
-    height: 96vh;
     background-color: azure;
     padding: 10px;
 }
